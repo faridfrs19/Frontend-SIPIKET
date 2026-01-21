@@ -1,0 +1,87 @@
+/* Login */
+.form-left {
+    background: linear-gradient(to bottom, #4570de, #d487b1);
+}
+
+.login-page{
+    background-image: url(/src/assets/image/bg-login.svg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.login-page a{
+    color: white;
+}
+
+.login-page a:hover{
+    color: white;
+}
+
+.back img{
+    width: 40px;
+    padding-right: 10px
+}
+
+.login-page input{
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.login-page form i{
+    color: #4570de;
+}
+
+.login-page form label{
+    color: black;
+    margin-bottom: 10px;
+}
+
+.bg-form{
+    background-color: rgba(255, 255, 255, 0.514);
+}
+/* Login */
+
+/* table users */
+.table-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.table-group-divider .btn-edit{
+    background-color: #4570de;
+    width: 40px;
+}
+.table-group-divider .btn-delete{
+    background-color: red;
+    width: 45px;
+    height: auto;
+}
+.table-group-divider .btn-setuju{
+    background-color: green;
+    width: 40px;
+}
+.table-group-divider .btn-tolak{
+    background-color: red;
+    width: 45px;
+    height: auto;
+}
+/* table users */
+
+/* Pagination */
+a.page-link{
+    background-color: #4570de;
+    color: white;
+}
+a.page-link:hover{
+    background-color: #d487b1;
+    color: white;
+}
+.page-item.active .page-link {
+    background-color: #d487b1 !important;
+    border: none;
+}
+/* pagination */
+.carousel-indicators .active{
+    display: none;
+}

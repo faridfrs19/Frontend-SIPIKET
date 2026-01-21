@@ -1,0 +1,50 @@
+{
+  "name": "news-admin-pplg1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@formspree/react": "^2.5.1",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "aos": "^2.3.4",
+    "axios": "^1.2.1",
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.3",
+    "html2canvas": "^1.4.1",
+    "js-cookie": "^3.0.1",
+    "jspdf": "^2.5.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.1",
+    "react-chartjs-2": "^4.3.1",
+    "react-confirm-alert": "^3.0.6",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "^4.11.0",
+    "react-js-pagination": "^3.0.3",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^6.4.5",
+    "react-text-typist": "^1.1.8",
+    "recoil": "^0.7.6",
+    "sweetalert2": "^11.10.5",
+    "sweetalert2-react-content": "^5.0.7",
+    "swiper": "^11.0.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "vite": "^4.4.5"
+  }
+}
