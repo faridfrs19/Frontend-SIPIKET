@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Spinner } from 'react-bootstrap';
-import '../dist/main.css'
+import '../styles/main.css'
 
 export default function Loader() {
   const [showLoader, setShowLoader] = useState(false);

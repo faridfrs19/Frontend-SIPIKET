@@ -13,7 +13,7 @@ import tutor from '../../assets/image/tutor.png'
 import kanan from '../../assets/image/kanan.svg'
 import play from '../../assets/image/play.svg'
 import { Container, Row, Col, Button, Form, Modal} from 'react-bootstrap';
-import '../../dist/main.css'
+import '../../styles/main.css'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
